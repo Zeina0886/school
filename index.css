@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    background-color: #eee;
+}
+
+.w-50{
+width: 49%;
+}
+
+.w-100{
+    display: block;
+    width: 100%;
+   }
+/*------------------------------------------------------------------*/
+
+
+nav{
+    padding: 10px 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top:0
+}
+
+nav .img-div{
+    float: left;
+}
+
+nav .menu{
+    float: right;
+}
+
+nav .menu ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    margin: 15px 10px 0 10px;
+}
+
+ a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ a:hover{
+    color: crimson;
+}
+
+.btn-red{
+    background-color: crimson;
+    border: 2px solid crimson;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+}
+
+.btn-red:hover{
+    background-color: white;
+    color: crimson;
+}
+
+/*----------------------------------------------------*/
+
+
+.form-section{
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.form-section .form{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-section .form input,
+.form-section .form select{
+    background-color: #eee;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    margin: 5px 0;
+    color: grey;
+}
+
+.form-section .form input:focus,
+.form-section .form textarea:focus{
+    outline: none;
+    margin: 2px;
+}
+
+.form-section .form textarea{
+    height: 300px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #eee;
+    border-radius: 3px;
+    margin: 10px 0;
+    resize: vertical;
+}
+
+
+.form-section .form button{
+    margin: 10px 0;
+}
+
+.rounded{
+    border-radius: 30px;
+}
+
+.link{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.form-section .container .form{
+    margin-top: 100px;
+}
+
+.form-section .container .form .school{
+    text-align: center;
+    color: black;
+}
